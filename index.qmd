@@ -131,7 +131,7 @@ dreamy_mean = dreamy_data['post_surgical_score'].mean()
 duck_mean = duck_data['post_surgical_score'].mean()
 
 # Create figure
-fig, ax = plt.subplots(figsize=(9, 5))
+fig, ax = plt.subplots(figsize=(8, 6))
 
 # Plot scatter points
 ax.scatter(dreamy_data['patient'], dreamy_data['post_surgical_score'], 
@@ -319,7 +319,7 @@ dreamy_mean = dreamy_data['post_surgical_score'].mean()
 duck_mean = duck_data['post_surgical_score'].mean()
 
 # Create figure
-fig, ax = plt.subplots(figsize=(9, 5))
+fig, ax = plt.subplots(figsize=(8, 6))
 
 # Plot scatter points
 ax.scatter(dreamy_data['patient'], dreamy_data['post_surgical_score'], 
@@ -391,7 +391,7 @@ dreamy_mean = dreamy_data['post_surgical_score'].mean()
 duck_mean = duck_data['post_surgical_score'].mean()
 
 # Create figure
-fig, ax = plt.subplots(figsize=(9, 5))
+fig, ax = plt.subplots(figsize=(8, 6))
 
 # Add shaded region highlighting severity between -1 and 1
 ax.axvspan(-1, 1, alpha=0.15, color='gray', zorder=0, label='Overlap Region')
